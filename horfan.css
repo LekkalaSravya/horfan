@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+
+    margin-top: 5px; 
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://thumbs.dreamstime.com/b/horror-dense-ghostly-dark-forest-scary-creepy-night-landscape-clumsy-tree-branches-against-backdrop-moonlight-164191654.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+    margin-top: 1px; 
+    top: 0; 
+    left: 0; 
+    position: fixed; 
+    width:1500px;
+    /*background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://thumbs.dreamstime.com/b/horror-dense-ghostly-dark-forest-scary-creepy-night-landscape-clumsy-tree-branches-against-backdrop-moonlight-164191654.jpg");*/
+    background-color: black;
+    height:30px;
+    padding: 2rem 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 4px 4px 2px rgb(238, 198, 40);
+}
+.navigation{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+     
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:  5px;
+    width:1000px;
+    height:50px;
+    align-items: center;
+    padding:1vw;
+     
+    
+}
+.header span{
+    font-size:35px;
+    font-family: 'Nosifer',cursive;
+    padding-right:250px;
+    color:yellow;
+} 
+ 
+.navigation a{
+     
+    color:yellow;
+    font-size: 20px;
+    font-style: calc();
+    
+}
+.navigation a:hover{
+    border-radius: 5px;
+    border: .6rem solid aqua;
+    border-width: .2rem;
+    color:white;
+}
+
+.home{
+    margin-top:1px;
+    width:100vw;
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://thumbs.dreamstime.com/b/horror-dense-ghostly-dark-forest-scary-creepy-night-landscape-clumsy-tree-branches-against-backdrop-moonlight-164191654.jpg");
+   
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+    position: relative;
+    color:white;
+
+}
+section{
+    min-height: 100vh;
+    
+}
+
+.home p{
+    font-size: 100px;
+    font-family: 'Nosifer',cursive; 
+    margin-bottom: 90px;
+     
+    
+}
+p h1{
+    font-size: 80px;
+}
+marquee{
+    color:white;
+}
+span{ 
+    font-style:calc() ;
+    font-family: 'Nosifer',cursive;
+    color: yellow;
+    font-size: 45px;
+
+}
+.home span ul{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: row-reverse;
+}
+.home span ul li{
+    
+    list-style: none;
+    color:yellow;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 10px;
+    filter:blur(1px);
+    transition: 4s;
+}
+.home span ul li:hover,.home span ul li:hover~li{
+    transform:rotate(180deg)translateX(-200px);
+    transition: 2s;
+    filter: blur(20px);
+    opacity: 0;
+
+}
+ 
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(2rem,1fr));
+    gap: 1.0rem;
+}
+.home .home-content{
+    margin-top: 50px;
+    padding-left: 60px;
+}
+ 
+.home h2{
+    font-size: 30px;
+    color:white;
+}
+.home .btn{
+    margin-top: 30px;
+}
+.home a{
+    text-decoration:none;
+    font-size: 20px;
+    padding: 13px 35px;
+    background-color: aliceblue;
+    font-weight: 600;
+    border-radius:5px ;
+}
+.home-content img{
+     border-radius: 150px;
+    
+}
+.about{
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8023c81-64d1-4869-8e66-66bd19668a66/df122uk-ba546db0-f99f-4eed-826d-4342acd4586b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4MDIzYzgxLTY0ZDEtNDg2OS04ZTY2LTY2YmQxOTY2OGE2NlwvZGYxMjJ1ay1iYTU0NmRiMC1mOTlmLTRlZWQtODI2ZC00MzQyYWNkNDU4NmIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.JeXxnrkp2uVmLHEIs_S6VVe2BdvrL1tQ0sQRY0qkRgk");
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.about-heading h3{
+    margin-bottom: 100px;
+    padding-left: 50px;
+    color:yellow;
+    font-size: 30px;
+    
+}
+.about-heading p{
+    padding-left: 100px;
+    color:white;
+    font-size: 25px;
+
+}
+.about-img img{
+    padding-left: 30px;
+    margin-top: 100px;
+    border-radius: 160px;
+}
+.card{
+    margin-top: 20px;
+    position: relative;
+    width:600px;
+    height:350px;
+    background: ;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.card .circle{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card .circle::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: aqua;
+    clip-path: circle(120px at center);
+    transition: 0.5s;
+}
+.card:hover .circle:before{
+    background:black;
+    clip-path: circle(400px at center);
+}
+.card img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    height: 300px;
+}
+.card:hover img{
+    left: 75%;
+
+}
+.card .content{
+    left:20%;
+    transition: 0.5s;
+    position: relative;
+    width: 50%;
+    padding: 20px 20px 20px 40px;
+    color:aqua;
+    opacity: 0;
+    visibility: hidden;
+}
+.card:hover .content{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.horror{
+    padding-top: 200px;
+}
+.horror h1 span{
+    padding-top: 200px;
+    padding-left: 50px;
+    color:red;
+    font-size: 35px;
+}
+.horror-card{
+    margin-top: 20px;
+    width:700px;
+    height:450px;
+    background:black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.horror-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(1rem,1fr));
+    gap: 0.5rem;
+}
+.horror-card p{
+     padding-left: 20px;
+    color:yellow; 
+    margin-top: 400px; 
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.horror-card pre{
+    font-size: 20px;
+}
+.horror-card pre h4{
+    color:aqua;
+    margin-bottom: 370px;
+    padding-left: 800px;
+    padding: 1px;
+    
+}
+.horror-card pre h4 span{
+    font-size: 20px;
+}
+.horror{
+    background: url("https://img.freepik.com/premium-vector/realistic-halloween-background_23-2149091921.jpg");
+    background-size: cover;
+}
+.content h2{
+    color:yellow;
+}
+.content p a{
+    color:yellow;
+}
+.btn{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    
+}
+.btn a{
+    position: relative;
+    display:inline-block;
+    padding: 15px 30px;
+    color:aqua; 
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn a:hover{
+    color: white;
+    background:aqua;
+    box-shadow: 0 0 10px aqua,0 0 40px aqua,0 0 80px aqua;
+    transition-delay: 1s;
+}
+.btn a span{
+    position: absolute;
+    display: block;
+
+}
+.btn a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height:2px; 
+    background: linear-gradient(90deg,transparent,aqua);
+}
+.btn a:hover span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+}
+.btn a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height:2px; 
+    background: linear-gradient(90deg,transparent,aqua);
+}
+.btn a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.btn a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height:100%; 
+    background: linear-gradient(90deg,transparent,aqua);
+}
+.btn a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.btn a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height:100%; 
+    background: linear-gradient(360deg,transparent,aqua);
+}
+.btn a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+ 
